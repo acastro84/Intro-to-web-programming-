@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!--
+
+        Name :Armando Castro
+
+        Date :14/02/2020
+
+     -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- title for web page -->
+
+    <title>Competency 2 Javascript</title>
+
+    <script src="modernizr.custom.05819.js"></script>
+
+</head>
+
+<body>
+
+    <article>
+
+        <h2>High-Speed Internet Plans</h2>
+
+        <!-- script is used for javascript -->
+
+        <script>
+
+            //declaring variables
+
+            var serviceNameOne="Basic";
+
+            var serviceNameTwo="Express";
+
+            var serviceNameThree="Extreme";
+
+            var serviceNameFour="Ultra";
+			
+			var serviceNameFive="Ultimate";
+
+            var serviceSpeedOne=50;
+
+            var serviceSpeedTwo=100;
+
+            var serviceSpeedThree=200;
+
+            var serviceSpeedFour=500;
+			
+			var serviceSpeedFive=1000;
+
+        </script>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Service Name</th>
+
+                    <th>Service Speed</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td><script>document.write(serviceNameOne)</script></td>
+
+                    <td><script>document.write(serviceSpeedOne)</script></td>
+
+                </tr>
+
+                <tr>
+
+                    <td><script>document.write(serviceNameTwo)</script></td>
+
+                    <td><script>document.write(serviceSpeedTwo)</script></td>
+
+                </tr>
+
+                <tr>
+
+                    <td><script>document.write(serviceNameThree)</script></td>
+
+                    <td><script>document.write(serviceSpeedThree)</script></td>
+
+                </tr>
+
+                <tr>
+
+                    <td><script>document.write(serviceNameFour)</script></td>
+
+                    <td><script>document.write(serviceSpeedFour)</script></td>
+
+                </tr>
+				
+				<tr>
+
+                    <td><script>document.write(serviceNameFive)</script></td>
+
+                    <td><script>document.write(serviceSpeedFive)</script></td>
+
+                </tr>
+
+             </tbody>
+
+        </table>
+
+    </article>
+
+</body>
+
+</html>
+
+==================================
